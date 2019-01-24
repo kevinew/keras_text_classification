@@ -13,7 +13,7 @@ from keras.layers import Dense, Embedding, Activation, Input
 from keras.layers import Convolution1D, Flatten, Dropout, MaxPool1D
 from keras.layers import  BatchNormalization
 from sklearn.model_selection import train_test_split
-from data_helper_3c import load_data_and_labels
+from data_helper_ml import load_data_and_labels
 import matplotlib.pyplot as plt
 
 good_data_file = "./data/good_cut_jieba.txt"
